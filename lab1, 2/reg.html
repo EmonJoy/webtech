@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+    <body>
+
+        <h2>Registration form</h2>
+
+        <form action="#" method="post">
+
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label>Gender:</label><br>
+
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="30" required></textarea><br><br>
+
+
+            <label for="department">Department:</label><br>
+            <select id="department" name="department" required>
+                <option value="">-- Select Department --</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+            </select><br><br>
+
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+
+        </form>
+
+    </body>
+</html>

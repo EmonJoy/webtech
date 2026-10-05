@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(229, 201, 223);
+    padding: 30px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
