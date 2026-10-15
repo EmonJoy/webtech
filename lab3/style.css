@@ -1,0 +1,45 @@
+*{
+    background-color: cornsilk;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3{
+    color: deepskyblue;
+    font: 'arial';
+    font-weight: 200;
+}
+  table, th, td {
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+  legend{
+    justify-content: center;
+  }
+  
+  .btn-reset{
+    background-color: red;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%; 
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+  nav a{
+ 
+    font-size: 20px;
+    background-color: grey;
+    font-style: italic;
+    justify-content: right;
+    padding: 10px 15px;
+
+  }
